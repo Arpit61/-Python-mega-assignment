@@ -32,36 +32,57 @@ Ans- Type casting means changing from one data type to another data type
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
 Ans- yes we can take multiple input.
      x,y=input("enter two values).split()
-     
+
 Q10. What are keywords?
+Ans- keywords are the Resversed word in python which had some defined perpose.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
+Ans- No we can't use keywords as variable name because it already had some defined prurpose.
 
 Q12. What is indentation? What's the use of indentaion in Python?
+Ans- indentaion is space at the begining of code. In Python the staring and end for loops , conditions etc.. 
+     are determine through indentaion. In python there is no braketing system like other programming language.
 
 Q13. How can we throw some output in Python?
+Ans- With the help of print() function we can thro output in python.
 
 Q14. What are operators in Python?
+Ans- operators are to perform compution.
 
 Q15. What is difference between / and // operators?
+Ans- /-this will give decimal value
+     //- this will give floor value
+     eg. 7/2 will give 3.5
+         7//2 will give 3
 
 Q16. Write a code that gives following as an output.
 
 iNeuroniNeuroniNeuroniNeuron
+Ans- print("iNeuron"*4)
+
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+Ans-num=int(input("Enter a number"))
+if num%2==0:
+    print("even")
+else:
+    print("odd")
 
 Q18. What are boolean operator?
+Ans- TO perfor True and False operations
 
 Q19. What will the output of the following?
 
 1 or 0
-
+Ans-True
 0 and 0
-
+Ans-False
 True and False and True
-
+Ans- False
 1 or 0 or 0
+Ans- True
+
 Q20. What are conditional statements in Python?
+Ans- conditional statements in python is to perform and apply logic based on some conditions.
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
 
