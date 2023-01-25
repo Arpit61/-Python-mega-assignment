@@ -2,23 +2,37 @@ Assignment Part-1
 Q1. Why do we call Python as a general purpose and high-level programming language?
 Ans- Python is general purpose pro language because it is used for multiple purpose and it is also
      called high le programming language because it is very easy to understsnd for human being.
-     
+
 Q2. Why is Python called a dynamically typed language?
+Ans- Python is dynamically typed because variable is determine during run time.
 
 Q3. List some pros and cons of Python programming language?
+Ans- Pro- Easy to understsnd, lot of inbuid liberary, larger community Support
+     Con- Slow as compare to other programming language, It will also need more space
 
 Q4. In what all domains can we use Python?
+Ans- It is used in various domain like AI,ML,DS,iot etc..
 
 Q5. What are variable and how can we declare them?
+Ans- variable are the name which hold the address location the value is store. 
+     name="Arpit"
+     number1=10
+     number2=10.5
 
 Q6. How can we take an input from the user in Python?
+Ans- With the help of input() function 
+   number=int(input("Enter a number"))
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
+Ans=default it is  String
 
 Q8. What is type casting?
+Ans- Type casting means changing from one data type to another data type
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
-
+Ans- yes we can take multiple input.
+     x,y=input("enter two values).split()
+     
 Q10. What are keywords?
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
