@@ -85,13 +85,38 @@ Q20. What are conditional statements in Python?
 Ans- conditional statements in python is to perform and apply logic based on some conditions.
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
+Ans- If- If is used in logical operations. In this if conditions is true then program will go inside.
+     Else- If  part is false them else part will be executed
+     elif- this is used when we want to check multiple conditions.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+Ans- num=int(input("Enter a number"))
+if num>=18:
+    print("I can vote")
+else:
+    print("I can't vote")
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 
 numbers = [12, 75, 150, 180, 145, 525, 50]
+Ans-numbers = [12, 75, 150, 180, 145, 525, 50]
+total=0
+for i in numbers:
+    if i%2==0:
+        total=total+i
+print(total)
+
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+Ans-a=int(input("Enter first number "))
+b=int(input("Enter second number "))
+c=int(input("Enter third number "))
+
+if a>b and a>c:
+    print("Biggest is ", a)
+elif b>a and b>c:
+    print("Biggest is ",b)
+else:
+    print("Biggest is ",c)
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
@@ -102,19 +127,40 @@ If the number is greater than 150, then skip it and move to the next number
 If the number is greater than 500, then stop the loop
 
 numbers = [12, 75, 150, 180, 145, 525, 50]
+Ans-numbers = [12, 75, 150, 180, 145, 525, 50]
+for i in numbers:
+    if i%5==0 and i<150:
+        print(i)
+    elif i>150 and i<499:
+        continue
+    elif i>500:
+        break
+
 Q26. What is a string? How can we declare string in Python?
+Ans- String is array of charcters. 
+     name="Arpit"
 
 Q27. How can we access the string using its index?
+Ans-name="Arpit"
+print(name[3])
 
 Q28. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
+Ans- string = "Big Data iNeuron"
+print(string[9:])
+
 Q29. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
 desired_output = "norueNi"
+Ans-string = "Big Data iNeuron"
+print(string[-1:-8:-1])
+
 Q30. Resverse the string given in the above question.
+Ans-string = "Big Data iNeuron"
+print(string[-1::-1])
 
 Q31. How can you delete entire string at once?
 
