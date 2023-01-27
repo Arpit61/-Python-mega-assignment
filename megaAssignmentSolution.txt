@@ -202,7 +202,7 @@ Q40. What is a tuple? How is it different from list?
 Ans- tuple is si,ilar to list but the only difference is tuple is unmutable.
 
 Q41. How can you create a tuple in Python?
-
+Ans-
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
 
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
