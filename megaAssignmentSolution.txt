@@ -202,24 +202,43 @@ Q40. What is a tuple? How is it different from list?
 Ans- tuple is si,ilar to list but the only difference is tuple is unmutable.
 
 Q41. How can you create a tuple in Python?
-Ans-
+Ans- tuple1=(1,2,3)
+
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+Ans- Tuple is unmutable object means we cannot add,remove or change once it is created.
 
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+Ans- No tuple is unmutable.
 
 Q44. Take a tuple as an input and print the count of elements in it.
+Ans- tuple1=(1,2,3,4,5)
+print(type(tuple1))
+print(len(tuple1))
 
 Q45. What are sets in Python?
+Ans- Set are used to store multiple values in one variable. It one of four data type dictionary,list and tuble.
 
 Q46. How can you create a set?
+Ans= set1={"Apple", "Orange","Banana","Mango"}
 
 Q47. Create a set and add "iNeuron" in your set.
+Ans- set1={"Apple", "Orange","Banana","Mango"}
+set1.add("iNeuron")
+print(set1)
 
 Q48. Try to add multiple values using add() function.
+Ans- with add() function we can add only one item at a time.
 
 Q49. How is update() different from add()?
+Ans- WIth update we can add sequence value like multiple values can be added at a time.
 
 Q50. What is clear() in sets?
+Ans- It will delete all the items available in set.
+set1={"Apple", "Orange","Banana","Mango"}
+set1.add("iNeuron")
+print(set1)
+set1.clear()
+print(set1)
 
 Q51. What is frozen set?
 
