@@ -259,7 +259,7 @@ Ans- By intersection means only common elements from two sets will be present in
 Q55. What is dictionary ibn Python?
 Ans-hbjhbjkbjhkmkm
 Q56. How is dictionary different from all other data structures.
-A
+Ans
 Q57. How can we delare a dictionary in Python?
 Ans-
 Q58. What will the output of the following?
