@@ -241,15 +241,23 @@ set1.clear()
 print(set1)
 
 Q51. What is frozen set?
+Ans- frozen set is an unmutable set object.
 
 Q52. How is frozen set different from set?
+Ans- frozen set can't be changed once it has been created.
 
 Q53. What is union() in sets? Explain via code.
+Ans- By union means the elements from both the set should be taken at only once wheater the element repeats or not.
+set1={1,2,3,4,6,8}
+set2={2,4,5,1,7,6}
+print(set1.union(set2))
+output- {1, 2, 3, 4, 5, 6, 7, 8}
 
 Q54. What is intersection() in sets? Explain via code.
+Ans- By intersection means only common elements from two sets will be present in the output.
 
 Q55. What is dictionary ibn Python?
-
+Ans-
 Q56. How is dictionary different from all other data structures.
 
 Q57. How can we delare a dictionary in Python?
