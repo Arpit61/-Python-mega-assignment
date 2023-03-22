@@ -255,9 +255,13 @@ output- {1, 2, 3, 4, 5, 6, 7, 8}
 
 Q54. What is intersection() in sets? Explain via code.
 Ans- By intersection means only common elements from two sets will be present in the output.
+set1={1,2,3,4,6,8}
+set2={2,4,5,1,7,6}
+print(set1.intersection(set2))
+output= {1, 2, 4, 6}
 
 Q55. What is dictionary ibn Python?
-Ans-hbjhbjkbjhkmkm
+
 Q56. How is dictionary different from all other data structures.
 Ans
 Q57. How can we delare a dictionary in Python?
