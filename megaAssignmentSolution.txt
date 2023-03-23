@@ -261,20 +261,32 @@ print(set1.intersection(set2))
 output= {1, 2, 4, 6}
 
 Q55. What is dictionary ibn Python?
+Ans- Dictionary is one of the data type , which store the data in key values pair.
 
 Q56. How is dictionary different from all other data structures.
-Ans
-Q57. How can we delare a dictionary in Python?
-Ans-
-Q58. What will the output of the following?
+Ans- It is different as it store the value in key, values pattern.
 
+Q57. How can we delare a dictionary in Python?
+Ans- dict1={}
+
+Q58. What will the output of the following?
 var = {}
 print(type(var))
+Ans- <class 'dict'>
+
 Q59. How can we add an element in a dictionary?
+Ans- Dict1={}
+Dict1['age']=10
 
 Q60. Create a dictionary and access all the values in that dictionary.
+Ans-dict1 = {"name":"Arpit", "age":23, "mobNo":"998875678"}
+print(dict1)
+output- {'name': 'Arpit', 'age': 23, 'mobNo': '998875678'}
 
 Q61. Create a nested dictionary and access all the element in the inner dictionary.
+Ans- dict1 = {"name":"Arpit", "age":23, "mobNo":"998875678","skills":{"tech":"Java, Python","NonTech":"Communication,Email"}}
+print(dict1["skills"])
+output- {'tech': 'Java, Python', 'NonTech': 'Communication,Email'}
 
 Q62. What is the use of get() function?
 
