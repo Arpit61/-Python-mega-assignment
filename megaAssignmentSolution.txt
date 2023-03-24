@@ -289,33 +289,73 @@ print(dict1["skills"])
 output- {'tech': 'Java, Python', 'NonTech': 'Communication,Email'}
 
 Q62. What is the use of get() function?
+Ans- It will helps to the the value of perticular key.
+dict1 = {"name":"Arpit", "age":23, "mobNo":"998875678","skills":{"tech":"Java, Python","NonTech":"Communication,Email"}}
+print(dict1.get("age"))
+output- 23
 
 Q63. What is the use of items() function?
+Ans- it will list all the key values pair present in the dictionary.
+dict1 = {"name":"Arpit", "age":23, "mobNo":"998875678","skills":{"tech":"Java, Python","NonTech":"Communication,Email"}}
+print(dict1.items())
+output-dict_items([('name', 'Arpit'), ('age', 23), ('mobNo', '998875678'), ('skills', {'tech': 'Java, Python', 'NonTech': 'Communication,Email'})])
 
 Q64. What is the use of pop() function?
+Ans- It is used to delete particular value with key.
+dict1 = {"name":"Arpit", "age":23, "mobNo":"998875678","skills":{"tech":"Java, Python","NonTech":"Communication,Email"}}
+dict1.pop("name")
+print(dict1)
+output- {'age': 23, 'mobNo': '998875678', 'skills': {'tech': 'Java, Python', 'NonTech': 'Communication,Email'}}
 
 Q65. What is the use of popitems() function?
+Ans- popitem() will the last key value pair added in the dictionary.
+dict1 = {"name":"Arpit", "age":23, "mobNo":"998875678","skills":{"tech":"Java, Python","NonTech":"Communication,Email"}}
+dict1.popitem()
+print(dict1)
+output- {'name': 'Arpit', 'age': 23, 'mobNo': '998875678'}
 
 Q66. What is the use of keys() function?
+Ans- keys() function is used to print the list of keys present in dictionary.
+dict1 = {"name":"Arpit", "age":23, "mobNo":"998875678","skills":{"tech":"Java, Python","NonTech":"Communication,Email"}}
+print(dict1.keys())
+output- dict_keys(['name', 'age', 'mobNo', 'skills'])
 
 Q67. What is the use of values() function?
+Ans- values() function is used to print the list of values present in the dictionary.
+dict1 = {"name":"Arpit", "age":23, "mobNo":"998875678","skills":{"tech":"Java, Python","NonTech":"Communication,Email"}}
+print(dict1.values())
+output-dict_values(['Arpit', 23, '998875678', {'tech': 'Java, Python', 'NonTech': 'Communication,Email'}])
 
 Q68. What are loops in Python?
+Ans- Loop are used to do the iterative part in the python.
 
 Q69. How many type of loop are there in Python?
+Ans- difference types of loops are for and while.
 
 Q70. What is the difference between for and while loops?
+Ans- In for loop the flow will go inside the loop then check the conditions, whereas in while loop conditions will check before entering in the loop,
 
 Q71. What is the use of continue statement?
+Ans- The continue means skip the current iteration and go to next iteration.
 
 Q72. What is the use of break statement?
+Ans- break is used to come out of the loop.
 
 Q73. What is the use of pass statement?
+Ans- Pass is used to run the program with any error. and in future we can replace it with some expression.
 
 Q74. What is the use of range() function?
+Ans- Range is used to get the range in python.
 
 Q75. How can you loop over a dictionary?
-
+Ans- Loop over Dictionary is possible with the help of key, value pair.
+dict1 = {"name":"Arpit", "age":"23", "mobNo":"998875678"}
+for key, value in dict1.items():
+    print(key+" "+value)
+output- name Arpit
+        age 23
+        mobNo 998875678 
+        
 Coding problems
 Q76. Write a Python program to find the factorial of a given number.
 
